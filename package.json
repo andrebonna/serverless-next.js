@@ -1,6 +1,6 @@
 {
   "name": "@andre.bonna/serverless-nextjs",
-  "version": "1.8.3",
+  "version": "1.8.4",
   "description": "Deploy your serverless next applications using the serverless framework",
   "main": "index.js",
   "directories": {

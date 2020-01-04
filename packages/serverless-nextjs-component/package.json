@@ -1,5 +1,5 @@
 {
-  "name": "serverless-next.js",
+  "name": "@andre.bonna/serverless-next.js",
   "version": "1.9.0",
   "description": "Serverless nextjs powered by Serverless Components",
   "main": "serverless.js",
@@ -31,5 +31,6 @@
     "fs-extra": "^8.1.0",
     "next-aws-lambda": "^2.3.2",
     "path-to-regexp": "^3.0.0"
-  }
+  },
+  "gitHead": "34b9e168d099814036187cec50f562a3f83909ab"
 }

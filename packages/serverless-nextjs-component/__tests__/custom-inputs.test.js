@@ -1,6 +1,6 @@
 const path = require("path");
 const execa = require("execa");
-const { mockDomain } = require("@serverless/domain");
+const { mockDomain } = require("@andre.bonna/domain");
 const { mockS3 } = require("@serverless/aws-s3");
 const { mockLambda, mockLambdaPublish } = require("@serverless/aws-lambda");
 const { mockCloudFront } = require("@serverless/aws-cloudfront");
@@ -60,7 +60,7 @@ describe("Custom inputs", () => {
       process.chdir(tmpCwd);
     });
 
-    it("uses @serverless/domain to provision custom domain", async () => {
+    it("uses @andre.bonna/domain to provision custom domain", async () => {
       const { domain, subdomain } = obtainDomains(inputDomains);
 
       expect(mockDomain).toBeCalledWith({
